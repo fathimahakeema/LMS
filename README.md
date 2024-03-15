@@ -27,6 +27,18 @@ The application supports the following functionalities:
 
 I added a couple features to our library's member management system that let users delete member records from the database. This feature facilitates simple management of member data, which improves system efficiency.
 
+### Description of Deletion Functionality
+
+This clearForm() function does, It clears all the text fields in a form. It empties the boxes where you enter information, like your name, phone number, email, and address.
+
+
+when press the "Delete" button:
+
+* It tries to delete a member from the database using their ID.
+* If successful, it tells the member was deleted and clears the form.
+* Then, it reloads the list of members.
+* If there's an issue, it lets know and logs the problem.
+
 ## Code Snippets
 
 ***You can look here some functions and events which i contribute to the group***
